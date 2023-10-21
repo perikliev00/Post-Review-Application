@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div class="inputs">
+        <h1 class="inline-h1">Add new post</h1>
+        <input placeholder="Enter tittle here" type="text" id="tittle">
+        <input placeholder="Enter category here" type="text" id="category">
+        <textarea placeholder="Enter content here" id="text-area"></textarea>
+        <button id="publish">PUBLISH</button>
+    </div>
+    <div class="posts">
+        <div id="review">
+            <h1>Posts for review</h1>
+        </div>
+        <div id="uploaded">
+            <h1>Upladed posts</h1>
+            <div id="uploaded-section">
+                <div id="buffer-section"></div>
+            </div>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
