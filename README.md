@@ -11,7 +11,7 @@ Welcome to the **Post Review Application**! This is a simple and interactive web
 - **Approve Posts**: Move the post to the uploaded section by clicking **Approve**.
 - **Clear Uploaded Posts**: Remove all the uploaded posts with the **Clear** button.
 
-## ⚙️ Technologies
+##  Technologies
 
 This project is built using:
 - **HTML5**: For structuring the layout and content.
